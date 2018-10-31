@@ -1,0 +1,42 @@
+3800
+3810 disle3(n,s)
+3820    {
+3830    disl4(n,s);
+3840   bprintf("*n");
+3850    }
+3860 disl4(n,s)
+3870    {
+3880    switch(n)
+3890       {
+3900       case 1:
+3910         bprintf("The Novice");
+3920          break;
+3930       case 2:
+3940          if(!s)bprintf("The Adventurer");
+3950          ELSE
+3960            bprintf("The Adventuress");
+3970          break;
+3980       case 3:
+3990         bprintf("The Hero");
+4000          if(s)bprintf("ine");
+4010          break;
+4020       case 4:
+4030         bprintf("The Champion");
+4040          break;
+4080       case 5:
+4090          if(!s)bprintf("The Conjurer");
+4100          ELSE
+4110            bprintf("The Conjuress");
+4120          break;
+4130       case 6:
+4140         bprintf("The Magician");
+4150          break;
+4160       case 7:
+4170          if(s)bprintf("The Enchantress");
+4180          ELSE
+4190            bprintf("The Enchanter");
+4200          break;
+4210       case 8:
+4220          if(s)bprintf("The Sorceress");
+4230          ELSE
+4240            bprintf("The Sorceror");
